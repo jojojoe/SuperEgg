@@ -1,0 +1,68 @@
+/*
+ * 定义公共变量
+*/
+.content .section-wrap {
+  max-width: 600px;
+  margin-bottom: 10%;
+}
+@media screen and (max-width: 767px) {
+  .content .section-wrap {
+    width: 91%;
+    text-align: left;
+  }
+}
+.content .section-wrap h3 {
+  margin-top: 27%;
+  margin-bottom: 18%;
+  letter-spacing: 0;
+}
+.content .section-wrap .logo {
+  width: 168px;
+  margin-top: 13.8%;
+}
+@media screen and (max-width: 639px) {
+  .content .section-wrap .logo {
+    width: 120px;
+    margin: 15% 0 3%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content .section-wrap .logo {
+    margin: 13.8% 0 0;
+  }
+}
+.content .section-wrap .logo img {
+  display: block;
+  height: 100%;
+}
+@media screen and (max-width: 639px) {
+  .content .section-wrap .logo img {
+    width: 100%;
+    height: auto;
+  }
+}
+.content .section-wrap h4 {
+  margin-top: 6.4%;
+  margin-bottom: 2.5%;
+  font-weight: 600;
+  font-size: 24px;
+}
+@media screen and (max-width: 639px) {
+  .content .section-wrap h4 {
+    margin-top: 3%;
+    font-size: 20px;
+  }
+}
+.content .section-wrap p {
+  margin-bottom: 3.2%;
+}
+.content .section-wrap .business-title {
+  margin-top: 27%;
+}
+.content .section-wrap .business-email {
+  margin-top: 4%;
+  letter-spacing: 1.3px;
+  opacity: 0.8;
+  font-weight: 600;
+  font-size: 16px;
+}

@@ -1,0 +1,31 @@
+
+.content .section-wrap {
+  max-width: 770px;
+  margin-bottom: 10%;
+}
+@media screen and (max-width: 767px) {
+  .content .section-wrap {
+    width: 91%;
+  }
+}
+.content .section-wrap h3 {
+  margin-top: 30%;
+  margin-bottom: 20%;
+  letter-spacing: 0;
+}
+.content .section-wrap h4 {
+  margin: 14% 0 0;
+  font-weight: 600;
+  font-size: 23px;
+  font-weight: 100;
+}
+.content .section-wrap p {
+  margin-top: 3%;
+}
+.content .section-wrap .container {
+  margin-top: 19%;
+  text-align: center;
+}
+.content .section-wrap .grid-4 {
+  vertical-align: middle;
+}

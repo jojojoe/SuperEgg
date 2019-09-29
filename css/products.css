@@ -1,0 +1,155 @@
+/*
+ * 定义公共变量
+*/
+@media screen and (max-width: 767px) {
+  #banner {
+    height: 100%;
+    background-image: url('../assets/img/mobile-our-app-banner.png');
+  }
+}
+@media screen and (min-width: 768px) {
+  #banner {
+    background-image: url('../assets/img/our-app-banner.jpg');
+  }
+}
+#banner h1 {
+  letter-spacing: 4px;
+}
+@media screen and (max-width: 639px) {
+  #banner h1 {
+    top: 50%;
+    width: 100%;
+    letter-spacing: 0;
+    font-size: 50px;
+    line-height: 1.1em;
+  }
+}
+.apps-container {
+  margin-top: 6%;
+  margin-bottom: 13.6%;
+}
+.apps-container .container {
+  margin-top: 5%;
+}
+@media screen and (max-width: 639px) {
+  .apps-container .container .grid {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 639px) {
+  .apps-container .container .squ-grid-6 {
+    margin-top: -148%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .apps-container .container .right {
+    float: right;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 639px) {
+  .apps-container .container .app-link {
+    display: block;
+    margin-top: 45%;
+  }
+}
+.apps-container .apps {
+  position: relative;
+  vertical-align: top;
+}
+@media screen and (max-width: 639px) {
+  .apps-container .apps {
+    height: auto;
+    padding: 8% 4% 4%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  .apps-container .apps {
+    padding: 2% 2% 48% 4.7%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .apps-container .apps {
+    padding: 4% 2% 46% 4.7%;
+  }
+}
+.apps-container .app-logo {
+  width: 17.6%;
+}
+@media screen and (max-width: 639px) {
+  .apps-container .app-logo {
+    width: 23%;
+  }
+}
+.apps-container h2 {
+  margin-top: 5%;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 48px;
+}
+@media screen and (max-width: 639px) {
+  .apps-container h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  .apps-container h2 {
+    margin-top: 3%;
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .apps-container h2 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 639px) {
+  .apps-container .long-title {
+    font-size: 36px;
+  }
+}
+.apps-container .detail {
+  letter-spacing: -0.2px;
+}
+@media screen and (max-width: 639px) {
+  .apps-container .detail {
+    margin-top: 118%;
+    text-align: left;
+    letter-spacing: 0;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  .apps-container .detail {
+    margin: 1% 0;
+  }
+}
+@media screen and (max-width: 639px) {
+  .apps-container .btn {
+    margin: 4% auto;
+  }
+}
+@media screen and (min-width: 640px) {
+  .apps-container .btn {
+    width: 154px;
+    height: 50px;
+    margin-top: 8%;
+    line-height: 50px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  .apps-container .btn {
+    width: 140px;
+    height: 40px;
+    margin-top: 4%;
+    line-height: 41px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .apps-container .btn {
+    margin-top: 4%;
+  }
+}
+.apps-container img {
+  width: 100%;
+}

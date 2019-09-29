@@ -1,0 +1,83 @@
+#banner {
+  height: auto;
+  /* background: center bottom no-repeat; */
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#banner .text {
+  color: #fff;
+  text-align: center;
+}
+#banner .text .icon {
+  width: 31%;
+  margin: 10% auto 0;
+}
+#banner .text h4 {
+  margin: 1% 0;
+}
+#banner .image {
+  margin: 2.3% auto;
+  width: 51%;
+  text-align: center;
+  display: block;
+}
+.download-row {
+  width: 100%;
+  text-align: center;
+}
+.google-download {
+  display: inline-block;
+  margin: 2.4% 0.6%;
+  width: 11%;
+}
+.text {
+  color: #000;
+  text-align: center;
+}
+h2 {
+  font-family: DINBold;
+  font-size: 36px;
+  margin-top: 8.5%;
+  margin-bottom: 2%;
+}
+h4 {
+  font-family: AvenirLTStdLight;
+  font-size: 18px;
+  font-weight: normal;
+  opacity: 0.7;
+}
+.section-wrap .image {
+  text-align: center;
+}
+.section-wrap .image img {
+  max-width: 100%;
+}
+#app-container-1 .image {
+  width: 50%;
+  margin: 4% auto 2%;
+}
+#app-container-2 {
+  background-color: #fbfbfb;
+}
+#app-container-2 .image {
+  width: 50%;
+  margin: 4% auto 2%;
+}
+#app-container-3 .image {
+  width: 50%;
+  margin: 4% auto 2%;
+}
+#app-container-4 {
+  background-color: #fbfbfb;
+}
+#app-container-4 .image {
+  width: 50%;
+  margin: 4% auto 2%;
+}
+#app-container-3D {
+  background-color: #fff;
+}
+#app-container-3D .image {
+  width: 50%;
+  margin: 4% auto 2%;
+}
