@@ -27,7 +27,7 @@ function init() {
  */
 function getBannerData() {
     var str = '';
-    BANNER_CONTENT.map(function (item) {
+    bannerContentInfo.map(function (item) {
         str += "<div class=\"swiper-slide\">\n    " + item + "\n    </div>";
     });
     document.getElementsByClassName('swiper-wrapper')[0].innerHTML = str;
@@ -110,7 +110,7 @@ function getContainer() {
     var str = '';
     companyInfo.products.map(function (item) {
         // str += "<div class=\"grid squ-grid-6 apps\">\n      <picture>\n        <source media=\"(max-width: 639px)\" srcset=\"./assets/img/" + item.imgName + "\">\n        <source media=\"(min-width: 640px)\" srcset=\"./assets/img/" + item.imgName + "\"><img src=\"./assets/img/" + item.imgName + "\" alt=\"\" class=\"app-bg\">\n      </picture>\n      <div class=\"app-detail\"><a href=\"./product.html?productName=" + item.id + "\">\n          <div class=\"app-logo\"><img src=\"./assets/img/" + item.iconName + "\" alt=\"\"></div>\n          <h4>" + item.h + "</h4>\n          <p>" + item.pIndex + "</p></a></div>\n    </div>";
-        str += "<div class=\"grid squ-grid-6 apps\">\n      <picture>\n        <source media=\"(max-width: 639px)\" srcset=\"./assets/img/" + item.imgName + "\">\n        <source media=\"(min-width: 640px)\" srcset=\"./assets/img/" + item.imgName + "\"><img src=\"./assets/img/" + item.imgName + "\" alt=\"\" class=\"app-bg\">\n      </picture>\n      <div class=\"app-detail\"><a href=javascript:void(0); />\n          <div class=\"app-logo\"><img src=\"./assets/img/" + item.iconName + "\" alt=\"\"></div>\n          <h4>" + item.h + "</h4>\n          <p>" + item.pIndex + "</p></a></div>\n    </div>";
+        str += "<div class=\"grid squ-grid-6 apps\">\n      <picture>\n        <source media=\"(max-width: 639px)\" srcset=\"./assets/se_img/" + item.imgName + "\">\n        <source media=\"(min-width: 640px)\" srcset=\"./assets/se_img/" + item.imgName + "\"><img src=\"./assets/se_img/" + item.imgName + "\" alt=\"\" class=\"app-bg\">\n      </picture>\n      <div class=\"app-detail\"><a href=javascript:void(0); />\n        <h4>" + item.h + "</h4>\n  <p>" + item.pProduct + "</p>\n      <p>" + item.pIndex + "</p></a></div>\n    </div>";
     });
     // str += `<div class="grid squ-grid-6 apps">
     // <picture>

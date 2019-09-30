@@ -31,6 +31,9 @@ function init() {
  * 创建页面内的对应内容
  */
 function createDom() {
+    // top title   <h1>Learn About Our Team &amp; Culture</h1>// + baseInfo.aboutUs.value 
+    var topTitleInfo = "<div class=\"section-wrap\">" + "<h1>" + aboutUsInfo.topTitle + "</h1>" + "</div>";
+    var ourValue =  "<h3 id=\"value-h3\">" + baseInfo.aboutUs.value  + "</h3>" + "<p>" + aboutUsInfo.ourValue + "</p>" ;
     // 公司介绍
     var introductionStr = "<h3>" + baseInfo.aboutUs.introduction + "</h3><p>" + companyInfo.companyIntro + "</p>";
     // 时间轴
@@ -45,10 +48,14 @@ function createDom() {
     Object.keys(baseInfo.aboutUs).map(function (item, index) {
         scrollNavStr += "<li class=\"" + (index === 0 ? 'active' : '') + "\"><a href=\"#" + item + "\">" + baseInfo.aboutUs[item] + "</a></li>";
     });
+    
+
+    document.getElementById('banner').innerHTML = topTitleInfo;
     document.getElementById('introduction').innerHTML = introductionStr;
     document.getElementById('timeline').innerHTML = timelineListStr;
-    document.getElementById('ceo').innerHTML = ceoStr;
-    document.getElementById('value-h3').innerHTML = baseInfo.aboutUs.value;
+    // document.getElementById('ceo').innerHTML = ceoStr;
+    document.getElementById('value-h3').innerHTML = ourValue;
+    document.getElementById('value-container').innerHTML = baseInfo.aboutUs.value;
     document.getElementById('environment-h3').innerHTML = baseInfo.aboutUs.environment;
     document.getElementById('partners-h3').innerHTML = baseInfo.aboutUs.partners;
     document.getElementById('scrollNav-menu').innerHTML = scrollNavStr;

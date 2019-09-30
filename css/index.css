@@ -226,14 +226,14 @@
 }
 @media screen and (max-width: 639px) {
   .banner-1 {
-    background: url('../assets/img/mobile-banner-1.png') center center no-repeat;
+    background: url('../assets/se_img/mobile_placeholder_1.png') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-1 {
-    background: url('../assets/img/banner-1.jpg') center center no-repeat;
+    background: url('../assets/se_img/placeholder_1.png') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -243,14 +243,14 @@
 }
 @media screen and (max-width: 639px) {
   .banner-2 {
-    background: url('../assets/img/mobile-banner-2.jpg') center center no-repeat;
+    background: url('../assets/se_img/mobile_placeholder_2.png') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-2 {
-    background: url('../assets/img/banner-2.jpg') center center no-repeat;
+    background: url('../assets/se_img/placeholder_2.png') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -271,14 +271,14 @@
 }
 @media screen and (max-width: 639px) {
   .banner-3 {
-    background: url('../assets/img/mobile-banner-3.jpg') center center no-repeat;
+    background: url('../assets/se_img/mobile_placeholder_3.png') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-3 {
-    background: url('../assets/img/banner-3.jpg') center center no-repeat;
+    background: url('../assets/se_img/placeholder_3.png') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -302,6 +302,43 @@
     bottom: 20%;
   }
 }
+
+@media screen and (max-width: 639px) {
+  .banner-4 {
+    background: url('../assets/se_img/mobile_placeholder_4.png') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 640px) {
+  .banner-4 {
+    background: url('../assets/se_img/placeholder_4.png') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 639px) {
+  .banner-4 h1 {
+    top: 45%;
+  }
+}
+.banner-4 .btn {
+  position: absolute;
+  bottom: 18%;
+  left: 50%;
+  width: 156px;
+  height: 50px;
+  margin-left: -78px;
+  line-height: 50px;
+}
+@media screen and (max-width: 639px) {
+  .banner-4 .btn {
+    bottom: 20%;
+  }
+}
+
+
+
 h3,
 .join-section h1 {
   letter-spacing: 0;
@@ -364,8 +401,8 @@ h3,
   -webkit-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  opacity: 0;
-  background: rgba(34, 24, 21, 0.8);
+  opacity: 1;
+  background: rgba(34, 24, 21, 0.0);
 }
 .apps .app-detail .app-logo {
   margin-top: 5%;
@@ -401,7 +438,7 @@ h3,
   -o-transition: all 0.5s;
   transition: all 0.5s;
   text-align: center;
-  opacity: 0;
+  opacity: 1;
   color: #fff;
   font-size: 18px;
 }
@@ -411,10 +448,10 @@ h3,
   }
 }
 .apps:hover .app-bg {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 .apps:hover .app-detail {
   display: block;
@@ -422,7 +459,7 @@ h3,
 }
 .apps:hover .app-detail p {
   margin-top: 5%;
-  opacity: 0.7;
+  opacity: 1s;
 }
 @media screen and (max-width: 639px) {
   .value-section .container {
@@ -487,14 +524,14 @@ h3,
 }
 @media screen and (max-width: 767px) {
   .join-section {
-    background: url('../assets/img/mobile-join-us-bg.jpg') center center no-repeat;
+    background: url('../assets/se_img/mobile_placeholder_9.png') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 768px) {
   .join-section {
-    background: url('../assets/img/join-us-bg.jpg') center center no-repeat;
+    background: url('../assets/se_img/placeholder_9.png') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
