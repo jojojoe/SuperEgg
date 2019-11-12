@@ -517,11 +517,11 @@ var BASE_INFO_EN = {
         //     href: './careers.html',
         //     className: 'careers'
         // },
-        {
-            name: 'Contact Us',
-            href: './contact_us.html',
-            className: 'contact-us'
-        }
+        // {
+        //     name: 'Contact Us',
+        //     href: './contact_us.html',
+        //     className: 'contact-us'
+        // }
     ],
     joinUs: 'Join Us',
     contactUs: 'Contact Us',
@@ -581,11 +581,11 @@ var BASE_INFO_CN = {
         //     href: './careers.html',
         //     className: 'careers'
         // },
-        {
-            name: '联系我们',
-            href: './contact_us.html',
-            className: 'contact-us'
-        }
+        // {
+        //     name: '联系我们',
+        //     href: './contact_us.html',
+        //     className: 'contact-us'
+        // }
     ],
     joinUs: '加入我们',
     contactUs: '联系我们',

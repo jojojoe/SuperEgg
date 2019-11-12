@@ -43,7 +43,7 @@ function createDom() {
     });
     timelineListStr += '</div>';
     // CEO 简介
-    var ceoStr = "<h3>" + baseInfo.aboutUs.ceo + "</h3>\n  <div class=\"ceo-info\"><img src=\"./assets/img/avator.jpg\" class=\"avator\"><span class=\"name\">" + companyInfo.ceo.name + "</span><span class=\"position\">CEO of Button Software</span></div>\n  <p>" + companyInfo.ceo.content + "</p>";
+    var ceoStr = "<h3>" + baseInfo.aboutUs.ceo + "</h3>\n  <div class=\"ceo-info\"><img src=\"./assets/img/avator.jpg\" class=\"avator\"><span class=\"name\">" + companyInfo.ceo.name + "</span><span class=\"position\">CEO of SuperEgg Tech</span></div>\n  <p>" + companyInfo.ceo.content + "</p>";
     var scrollNavStr = "";
     Object.keys(baseInfo.aboutUs).map(function (item, index) {
         scrollNavStr += "<li class=\"" + (index === 0 ? 'active' : '') + "\"><a href=\"#" + item + "\">" + baseInfo.aboutUs[item] + "</a></li>";

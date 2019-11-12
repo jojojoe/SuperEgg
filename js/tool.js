@@ -71,7 +71,7 @@ function createHeaderMenu() {
  */
 var year=new Date().getFullYear()
 function createFooter() {
-    var str = "<div class=\"section-wrap\">\n    <ul>\n      <li><a href=\"./careers.html\">" + baseInfo.joinUs + "</a></li>\n      <li><a href=\"./contact_us.html\">" + baseInfo.contactUs + "</a></li>\n      <p class=\"copyright\" style=\"margin: 4% auto 0\">Copyright \u00A9 2015-"+year+" Button Software. All Rights Reserved.</p>\n      <p class=\"copyright\" style=\"margin: 0 auto 4%\">"+ baseInfo.beian+"</p>\n    </ul>\n  </div>";
+    var str = "<div class=\"section-wrap\">\n    <ul>\n      <li><a href=\"./careers.html\">" + baseInfo.joinUs + "</a></li>\n      <li><a href=\"./contact_us.html\">" + baseInfo.contactUs + "</a></li>\n      <p class=\"copyright\" style=\"margin: 4% auto 0\">Copyright \u00A9 2015-"+year+" SuperEgg Tech. All Rights Reserved.</p>\n      <p class=\"copyright\" style=\"margin: 0 auto 4%\">"+ baseInfo.beian+"</p>\n    </ul>\n  </div>";
     document.getElementById('footer').innerHTML = str;
 }
 /**
