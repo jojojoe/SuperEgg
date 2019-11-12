@@ -17,7 +17,7 @@ var COMPANY_INFO_EN = {
     products: [
         {
             id: '广告投放',
-            imgName: 'placeholder_5.png',
+            imgName: 'description1.jpg',
             iconName: '',
             href: 'javascript:void(0)',
             h: '广告投放',
@@ -48,7 +48,7 @@ var COMPANY_INFO_EN = {
         },
         {
             id: '创意设计',
-            imgName: 'placeholder_6.png',
+            imgName: 'description2.jpg',
             iconName: '',
             href: 'javascript:void(0)',
             h: '创意设计',
@@ -85,7 +85,7 @@ var COMPANY_INFO_EN = {
         },
         {
             id: '账户管理',
-            imgName: 'placeholder_7.png',
+            imgName: 'description3.jpg',
             iconName: '',
             href: 'javascript:void(0)',
             h: '账户管理',
@@ -119,7 +119,7 @@ var COMPANY_INFO_EN = {
         },
         {
             id: '专注海外营销',
-            imgName: 'placeholder_8.png',
+            imgName: 'description4.jpg',
             iconName: '',
             href: 'javascript:void(0)',
             h: '专注海外营销',
@@ -275,7 +275,7 @@ var COMPANY_INFO_CN = {
     products: [
         {
             id: '广告投放',
-            imgName: 'placeholder_5.png',
+            imgName: 'description1.jpg',
             iconName: '',
             href: 'javascript:void(0)',
             h: '广告投放',
@@ -306,7 +306,7 @@ var COMPANY_INFO_CN = {
         },
         {
             id: '创意设计',
-            imgName: 'placeholder_6.png',
+            imgName: 'description2.jpg',
             iconName: '',
             href: 'javascript:void(0)',
             h: '创意设计',
@@ -343,7 +343,7 @@ var COMPANY_INFO_CN = {
         },
         {
             id: '账户管理',
-            imgName: 'placeholder_7.png',
+            imgName: 'description3.jpg',
             iconName: '',
             href: 'javascript:void(0)',
             h: '账户管理',
@@ -377,7 +377,7 @@ var COMPANY_INFO_CN = {
         },
         {
             id: '专注海外营销',
-            imgName: 'placeholder_8.png',
+            imgName: 'description4.jpg',
             iconName: '',
             href: 'javascript:void(0)',
             h: '专注海外营销',
@@ -566,11 +566,11 @@ var BASE_INFO_EN = {
 // 基本页面配置 
 var BASE_INFO_CN = {
     menu: [
-        {
-            name: '关于我们',
-            href: './about_us.html',
-            className: 'about-us'
-        },
+        // {
+        //     name: '关于我们',
+        //     href: './about_us.html',
+        //     className: 'about-us'
+        // },
         // {
         //     name: '产品介绍',
         //     href: './our_products.html',

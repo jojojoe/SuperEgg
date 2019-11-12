@@ -226,14 +226,14 @@
 }
 @media screen and (max-width: 639px) {
   .banner-1 {
-    background: url('../assets/se_img/mobile_placeholder_1.png') center center no-repeat;
+    background: url('../assets/se_img/banner1.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-1 {
-    background: url('../assets/se_img/placeholder_1.png') center center no-repeat;
+    background: url('../assets/se_img/banner1.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -243,14 +243,14 @@
 }
 @media screen and (max-width: 639px) {
   .banner-2 {
-    background: url('../assets/se_img/mobile_placeholder_2.png') center center no-repeat;
+    background: url('../assets/se_img/banner2.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-2 {
-    background: url('../assets/se_img/placeholder_2.png') center center no-repeat;
+    background: url('../assets/se_img/banner2.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -271,14 +271,14 @@
 }
 @media screen and (max-width: 639px) {
   .banner-3 {
-    background: url('../assets/se_img/mobile_placeholder_3.png') center center no-repeat;
+    background: url('../assets/se_img/banner3.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-3 {
-    background: url('../assets/se_img/placeholder_3.png') center center no-repeat;
+    background: url('../assets/se_img/banner3.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -305,14 +305,14 @@
 
 @media screen and (max-width: 639px) {
   .banner-4 {
-    background: url('../assets/se_img/mobile_placeholder_4.png') center center no-repeat;
+    background: url('../assets/se_img/banner4.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-4 {
-    background: url('../assets/se_img/placeholder_4.png') center center no-repeat;
+    background: url('../assets/se_img/banner4.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -524,14 +524,14 @@ h3,
 }
 @media screen and (max-width: 767px) {
   .join-section {
-    background: url('../assets/se_img/mobile_placeholder_9.png') center center no-repeat;
+    background: url('../assets/se_img/joinus.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 768px) {
   .join-section {
-    background: url('../assets/se_img/placeholder_9.png') center center no-repeat;
+    background: url('../assets/se_img/joinus.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
