@@ -18,7 +18,7 @@ function init() {
     createLanguage();
     changeMenu();
     activeInit();
-    createFooter();
+    // createFooter();
     createBaseDom();
     // createOurValues();
 }

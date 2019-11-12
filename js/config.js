@@ -196,7 +196,7 @@ var COMPANY_INFO_EN = {
         },
         {
             time: "Jan 2015",
-            content: "Established the button software"
+            content: "Established the SuperEgg Tech"
         },
         {
             time: "Nov 2018",
@@ -502,11 +502,11 @@ var COMPANY_INFO_CN = {
 // 基本页面配置 - 英文
 var BASE_INFO_EN = {
     menu: [
-        {
-            name: 'About Us',
-            href: './about_us.html',
-            className: 'about-us'
-        },
+        // {
+        //     name: 'About Us',
+        //     href: './about_us.html',
+        //     className: 'about-us'
+        // },
         // {
         //     name: 'Our Products',
         //     href: './our_products.html',
@@ -537,7 +537,7 @@ var BASE_INFO_EN = {
     },
     careers: {
         title: 'Open Positions',
-        subTItle: 'At Button Software, the world’s most talented engineers, designers, and thought leaders are shaping the future of Internet.',
+        subTItle: 'At SuperEgg Tech, the world’s most talented engineers, designers, and thought leaders are shaping the future of Internet.',
         subTItle2:'Contanct US By <a href="mailto:hr@gpower.co">Send Your Profile</a>'
     },
     values: [
