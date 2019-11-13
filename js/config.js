@@ -2,9 +2,9 @@
 // 轮播图内容
 var BANNER_CONTENT_EN = [
     "<div class=\"banner banner-1\">\n      <div class=\"section-wrap\">\n        <h1>Focus On Overseas Marketing<br><span>Professional, Powerful & Innovative</span></h1>\n      </div>\n    </div>",
-    "<div class=\"banner banner-2\">\n      <div class=\"section-wrap\">\n        <h1>Global Mobile Users<br><span>integration of top-quality global media resources, combined with professional ad serving technology and creative solutions</span></h1>\n              </div>\n    </div>",
-    "<div class=\"banner banner-3\">\n      <div class=\"section-wrap\">\n        <h1>Top quality traffic<br><span>Gain a broader market for products</span></h1>\n        </div>\n  </div>",
-    "<div class=\"banner banner-4\">\n      <div class=\"section-wrap\">\n        <h1>Customized delivery strategy<br><span>Customized creative advertising design</span></h1>\n        </div>\n  </div>"
+    "<div class=\"banner banner-2\">\n      <div class=\"section-wrap\">\n        <h1>Global Mobile Client<br><span>Super Egg integrated with top-quality global media resources and combined with professional ad serving technology to drive growth.</span></h1>\n              </div>\n    </div>",
+    "<div class=\"banner banner-3\">\n      <div class=\"section-wrap\">\n        <h1>Top Quality Media Traffic<br><span>World-wide and accuracy market for products</span></h1>\n        </div>\n  </div>",
+    "<div class=\"banner banner-4\">\n      <div class=\"section-wrap\">\n        <h1>Customized Grow Strategy<br><span>Customized creative advertising solution & design</span></h1>\n        </div>\n  </div>"
 ];
 // 公司信息 - 英文
 var COMPANY_INFO_EN = {
@@ -16,13 +16,13 @@ var COMPANY_INFO_EN = {
     },
     products: [
         {
-            id: '广告投放',
+            id: 'Advertise With Us',
             imgName: 'description1.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: '广告投放',
+            h: 'Advertise With Us',
             pIndex: '',
-            pProduct: "帮助客户在指定媒体平台获取目标用户, 为您架设合理的投放逻辑、展现方式、渠道、出价策略以及再营销的品牌定位，确保服务期间的有效信息触达受众。",
+            pProduct: "We help you reach the right target users with the right media platforms. Planning with a reasonable delivery strategy and optimize to maximize your investment.  Scale up user acquisition with direct brand positioning strategies to ensure matched the effective information to audiences during the services.",
             achievement: [""],
             detail: {
                 banner: "",
@@ -47,13 +47,13 @@ var COMPANY_INFO_EN = {
             }
         },
         {
-            id: '创意设计',
+            id: 'Innovation Design',
             imgName: 'description2.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: '创意设计',
+            h: 'Innovation Design',
             pIndex: '',
-            pProduct: '为产品提供不同媒体环境、用户特征和地域文化的创意设计及视频, 专业设计师精心打造, 让您不用再为图片的文字设计绞尽脑汁。',
+            pProduct: 'The professional design team create the picture or video with dedicated visual effects and creative advertising design. Consider with different cultural, region and user features that make sure all impression achieve the best results.',
             achievement: "",
             detail: {
                 banner: "",
@@ -84,13 +84,13 @@ var COMPANY_INFO_EN = {
             }
         },
         {
-            id: '账户管理',
+            id: 'Account Management',
             imgName: 'description3.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: '账户管理',
+            h: 'Account Management',
             pIndex: '',
-            pProduct: "为客户提供顶级流量平台Google本地化快速开户支持, 不再为开户而烦恼，系统化解决您的开户问题",
+            pProduct: "Provide you with fast and safe Google localization account service. Our professional supporting team systematically solve you with any account opening related issues.",
             achievement: [""],
             detail: {
                 banner: "",
@@ -118,13 +118,13 @@ var COMPANY_INFO_EN = {
             }
         },
         {
-            id: '专注海外营销',
+            id: 'Global Marketing Growth',
             imgName: 'description4.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: '专注海外营销',
+            h: 'Global Marketing Growth',
             pIndex: '',
-            pProduct: "精准营销、整合全球优质媒体资源, 让广告投放得更加精准",
+            pProduct: "Super Egg provides powerful performance marketing solution that help growth and set up your business success globally.",
             achievement: [""],
             detail: {
                 banner: "",
@@ -188,6 +188,11 @@ var COMPANY_INFO_EN = {
         address: "陕西省西安市浐灞生态区欧亚大道1188号企业孵化中心B573",
         officePhone: "86-15829881727",
         Email: "superegg.163.com"
+    },
+    contactUS_Text: {
+        address: "Address",
+        officePhone: "Phone",
+        Email: "Email"
     },
     history: [
        {
@@ -447,6 +452,11 @@ var COMPANY_INFO_CN = {
         officePhone: "86-15829881727",
         Email: "superegg.163.com"
     },
+    contactUS_Text: {
+        address: "地址",
+        officePhone: "电话",
+        Email: "邮箱"
+    },
     history: [
         {
             time: "",
@@ -526,7 +536,7 @@ var BASE_INFO_EN = {
     joinUs: 'Join Us',
     contactUs: 'Contact Us',
     businessSolutions: 'Business Solutions',
-    product: 'What can we do',
+    product: 'What We Can Do',
     aboutUs: {
         introduction: 'Introduction',
         timeline: 'Our Mile Stone',

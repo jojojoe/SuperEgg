@@ -125,6 +125,10 @@ function getContainer() {
 function createBaseDom() {
     document.getElementById('value').innerHTML = baseInfo.aboutUs.value;
     document.getElementById('product').innerHTML = baseInfo.product;
+    document.getElementById('contactus_title').innerHTML = baseInfo.contactUs;
+    document.getElementById('contactus_1').innerHTML = companyInfo.contactUS_Text.Email + ": " + companyInfo.contactUS.Email;
+    // document.getElementById('contactus_2').innerHTML = companyInfo.contactUS_Text.address + ": " + companyInfo.contactUS.address;
+;
 }
 /**
  * 我们的价值观
