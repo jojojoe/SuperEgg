@@ -187,7 +187,7 @@ var COMPANY_INFO_EN = {
     contactUS: {
         address: "陕西省西安市浐灞生态区欧亚大道1188号企业孵化中心B573",
         officePhone: "86-15829881727",
-        Email: "superegg.163.com"
+        Email: "judansuper1@gmail.com"
     },
     contactUS_Text: {
         address: "Address",
@@ -450,7 +450,7 @@ var COMPANY_INFO_CN = {
     contactUS: {
         address: "陕西省西安市浐灞生态区欧亚大道1188号企业孵化中心B573",
         officePhone: "86-15829881727",
-        Email: "superegg.163.com"
+        Email: "judansuper1@gmail.com"
     },
     contactUS_Text: {
         address: "地址",

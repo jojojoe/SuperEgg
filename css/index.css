@@ -193,7 +193,7 @@
   margin-top: -1em;
   text-align: center;
   letter-spacing: 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 100px;
   line-height: 1.1em;
 }
@@ -439,7 +439,7 @@ h3,
   transition: all 0.5s;
   text-align: center;
   opacity: 1;
-  color: #fff;
+  color: rgb(209, 208, 208);
   font-size: 18px;
 }
 @media screen and (min-width: 640px) and (max-width: 767px) {
