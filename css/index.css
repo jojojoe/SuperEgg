@@ -1,6 +1,16 @@
 /*
  * 定义公共变量
 */
+
+:root {
+ /* --joinUsImage: url('../assets/se_img/joinus_en.jpg'); */
+ /* --bannerImageName1: '../assets/se_img/banner1_en.jpg';
+ --bannerImageName2: '../assets/se_img/banner2_en.jpg';
+ --bannerImageName3: '../assets/se_img/banner3_en.jpg';
+ --bannerImageName4: '../assets/se_img/banner4_en.jpg'; */
+}
+
+
 .swiper-container {
   position: relative;
   /* Fix of Webkit flickering */
@@ -226,14 +236,34 @@
 }
 @media screen and (max-width: 639px) {
   .banner-1 {
-    background: url('../assets/se_img/banner1.jpg') center center no-repeat;
+    background: url('../assets/se_img/banner1_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-1_en {
+    background: url('../assets/se_img/banner1_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-1_zh {
+    background: url('../assets/se_img/banner1_en.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-1 {
-    background: url('../assets/se_img/banner1.jpg') center center no-repeat;
+    background: url('../assets/se_img/banner1_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-1_en {
+    background: url('../assets/se_img/banner1_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-1_zh {
+    background: url('../assets/se_img/banner1_zh.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -243,14 +273,34 @@
 }
 @media screen and (max-width: 639px) {
   .banner-2 {
-    background: url('../assets/se_img/banner2.jpg') center center no-repeat;
+    background: url('../assets/se_img/banner2_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-2_en {
+    background: url('../assets/se_img/banner2_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-2_zh {
+    background: url('../assets/se_img/banner2_zh.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-2 {
-    background: url('../assets/se_img/banner2.jpg') center center no-repeat;
+    background: url('../assets/se_img/banner2_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-2_en {
+    background: url('../assets/se_img/banner2_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-2_zh {
+    background: url('../assets/se_img/banner2_zh.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -271,14 +321,34 @@
 }
 @media screen and (max-width: 639px) {
   .banner-3 {
-    background: url('../assets/se_img/banner3.jpg') center center no-repeat;
+    background: url('../assets/se_img/banner3_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-3_en {
+    background: url('../assets/se_img/banner3_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-3_zh {
+    background: url('../assets/se_img/banner3_zh.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-3 {
-    background: url('../assets/se_img/banner3.jpg') center center no-repeat;
+    background: url('../assets/se_img/banner3_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-3_en {
+    background: url('../assets/se_img/banner3_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-3_zh {
+    background: url('../assets/se_img/banner3_zh.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -305,14 +375,34 @@
 
 @media screen and (max-width: 639px) {
   .banner-4 {
-    background: url('../assets/se_img/banner4.jpg') center center no-repeat;
+    background: url('../assets/se_img/banner4_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-4_en {
+    background: url('../assets/se_img/banner4_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-4_zh {
+    background: url('../assets/se_img/banner4_zh.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 640px) {
   .banner-4 {
-    background: url('../assets/se_img/banner4.jpg') center center no-repeat;
+    background: url('../assets/se_img/banner4_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-4_en {
+    background: url('../assets/se_img/banner4_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .banner-4_zh {
+    background: url('../assets/se_img/banner4_zh.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -524,14 +614,35 @@ h3,
 }
 @media screen and (max-width: 767px) {
   .join-section {
-    background: url('../assets/se_img/joinus.jpg') center center no-repeat;
+    background: url('../assets/se_img/joinus_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .join-section_en {
+    background: url('../assets/se_img/joinus_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .join-section_zh {
+    background: url('../assets/se_img/joinus_zh.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 }
 @media screen and (min-width: 768px) {
   .join-section {
-    background: url('../assets/se_img/joinus.jpg') center center no-repeat;
+    
+    background: url('../assets/se_img/joinus_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .join-section_en {
+    background: url('../assets/se_img/joinus_en.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .join-section_zh {
+    background: url('../assets/se_img/joinus_zh.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }

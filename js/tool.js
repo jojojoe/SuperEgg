@@ -9,7 +9,7 @@ var baseInfo = localEnv === 'CN' ? BASE_INFO_CN : BASE_INFO_EN;
 var bannerContentInfo = localEnv == 'CN' ? BANNER_CONTENT_CN : BANNER_CONTENT_EN; 
 //  根据语言选择获取About Us文字信息
 var aboutUsInfo = localEnv == 'CN' ? ABOUT_US_INFO_CN : ABOUT_US_INFO_EN;
-
+var joinUsInfo = localEnv == 'CN' ? JOIN_US_INFO_ZH : JOIN_US_INFO_EN;
 /**
  * 创建语言切换功能按钮
  */

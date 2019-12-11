@@ -11,6 +11,7 @@ window.onload = function () {
 function init() {
     createHeaderMenu();
     getBannerData();
+    getJoinUsData();
     initSwiper();
     getScroll();
     createEvent();
@@ -31,6 +32,13 @@ function getBannerData() {
         str += "<div class=\"swiper-slide\">\n    " + item + "\n    </div>";
     });
     document.getElementsByClassName('swiper-wrapper')[0].innerHTML = str;
+}
+function getJoinUsData() {
+    var str = '';
+    joinUsInfo.map(function (item) {
+        str += "<div " + item + "\n    </div>";
+    });
+    document.getElementsByClassName('join-pic')[0].innerHTML = str;
 }
 /**
  * 初始化 swiper 组件
@@ -125,8 +133,8 @@ function getContainer() {
 function createBaseDom() {
     document.getElementById('value').innerHTML = baseInfo.aboutUs.value;
     document.getElementById('product').innerHTML = baseInfo.product;
-    document.getElementById('contactus_title').innerHTML = baseInfo.contactUs;
-    document.getElementById('contactus_1').innerHTML = companyInfo.contactUS_Text.Email + ": " + companyInfo.contactUS.Email;
+    // document.getElementById('contactus_title').innerHTML = baseInfo.contactUs;
+    // document.getElementById('contactus_1').innerHTML = companyInfo.contactUS_Text.Email + ": " + companyInfo.contactUS.Email;
     // document.getElementById('contactus_2').innerHTML = companyInfo.contactUS_Text.address + ": " + companyInfo.contactUS.address;
 ;
 }

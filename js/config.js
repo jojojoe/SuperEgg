@@ -1,11 +1,26 @@
 "use strict";
 // 轮播图内容
 var BANNER_CONTENT_EN = [
-    "<div class=\"banner banner-1\">\n      <div class=\"section-wrap\">\n        <h1>Focus On Overseas Marketing<br><span>Professional, Powerful & Innovative</span></h1>\n      </div>\n    </div>",
-    "<div class=\"banner banner-2\">\n      <div class=\"section-wrap\">\n        <h1>Global Mobile Client<br><span>Super Egg integrated with top-quality global media resources and combined with professional ad serving technology to drive growth.</span></h1>\n              </div>\n    </div>",
-    "<div class=\"banner banner-3\">\n      <div class=\"section-wrap\">\n        <h1>Top Quality Media Traffic<br><span>World-wide and accuracy market for products</span></h1>\n        </div>\n  </div>",
-    "<div class=\"banner banner-4\">\n      <div class=\"section-wrap\">\n        <h1>Customized Grow Strategy<br><span>Customized creative advertising solution & design</span></h1>\n        </div>\n  </div>"
+    "<div class=\"banner banner-1_en\">\n      <div class=\"section-wrap\">\n        <h1></span></h1>\n      </div>\n    </div>",
+    "<div class=\"banner banner-2_en\">\n      <div class=\"section-wrap\">\n        <h1></span></h1>\n              </div>\n    </div>",
+    "<div class=\"banner banner-3_en\">\n      <div class=\"section-wrap\">\n        <h1></span></h1>\n        </div>\n  </div>",
+    "<div class=\"banner banner-4_en\">\n      <div class=\"section-wrap\">\n        <h1></span></h1>\n        </div>\n  </div>"
 ];
+
+var JOIN_US_INFO_EN = [
+    "<div class=\"join-section_en\"  style=\"margin-top: 60px; height: 340px;\">\n      <div class=\"section-wrap\"  id=\"index-section-wrap\" >\n  <br/ \n  <br/ \n  <br/ \n <h1 id=\"contactus_title\"></h1> \n   <br/ \n <br/ \n <br/ \n  <br/ \n <br/ \n <p class=\"sub-title\"></p> \n  <br/ \n <br/ \n <br/ \n <br/ \n   <h1 id=\"joinUs\"> </h1> \n  <br/ \n  <br/ \n  </div>\n    </div>", 
+]
+
+var JOIN_US_INFO_ZH = [
+    "<div class=\"join-section_zh\"  style=\"margin-top: 60px; height: 340px;\">\n      <div class=\"section-wrap\"  id=\"index-section-wrap\" >\n  <br/ \n  <br/ \n  <br/ \n <h1 id=\"contactus_title\"></h1> \n   <br/ \n <br/ \n <br/ \n  <br/ \n <br/ \n <p class=\"sub-title\"></p> \n  <br/ \n <br/ \n <br/ \n <br/ \n   <h1 id=\"joinUs\"> </h1> \n  <br/ \n  <br/ \n  </div>\n    </div>", 
+]
+
+// var BANNER_CONTENT_EN = [
+//     "<div class=\"banner banner-1_en\">\n      <div class=\"section-wrap\">\n        <h1>Focus On Overseas Marketing<br><span>Professional, Powerful & Innovative</span></h1>\n      </div>\n    </div>",
+//     "<div class=\"banner banner-2_en\">\n      <div class=\"section-wrap\">\n        <h1>Global Mobile Client<br><span>Super Egg integrated with top-quality global media resources and combined with professional ad serving technology to drive growth.</span></h1>\n              </div>\n    </div>",
+//     "<div class=\"banner banner-3_en\">\n      <div class=\"section-wrap\">\n        <h1>Top Quality Media Traffic<br><span>World-wide and accuracy market for products</span></h1>\n        </div>\n  </div>",
+//     "<div class=\"banner banner-4_en\">\n      <div class=\"section-wrap\">\n        <h1>Customized Grow Strategy<br><span>Customized creative advertising solution & design</span></h1>\n        </div>\n  </div>"
+// ];
 // 公司信息 - 英文
 var COMPANY_INFO_EN = {
     companyName: "Xi'an SuperEgg Technology Co., Ltd.",
@@ -17,12 +32,14 @@ var COMPANY_INFO_EN = {
     products: [
         {
             id: 'Advertise With Us',
-            imgName: 'description1.jpg',
+            imgName: 'description1_en.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: 'Advertise With Us',
+            h: '',
+            //h: 'Advertise With Us',
             pIndex: '',
-            pProduct: "We help you reach the right target users with the right media platforms. Planning with a reasonable delivery strategy and optimize to maximize your investment.  Scale up user acquisition with direct brand positioning strategies to ensure matched the effective information to audiences during the services.",
+            pProduct: '',
+            //pProduct: "We help you reach the right target users with the right media platforms. Planning with a reasonable delivery strategy and optimize to maximize your investment.  Scale up user acquisition with direct brand positioning strategies to ensure matched the effective information to audiences during the services.",
             achievement: [""],
             detail: {
                 banner: "",
@@ -48,12 +65,14 @@ var COMPANY_INFO_EN = {
         },
         {
             id: 'Innovation Design',
-            imgName: 'description2.jpg',
+            imgName: 'description2_en.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: 'Innovation Design',
+            h: '',
+            //h: 'Innovation Design',
             pIndex: '',
-            pProduct: 'The professional design team create the picture or video with dedicated visual effects and creative advertising design. Consider with different cultural, region and user features that make sure all impression achieve the best results.',
+            pProduct: '',
+            //pProduct: 'The professional design team create the picture or video with dedicated visual effects and creative advertising design. Consider with different cultural, region and user features that make sure all impression achieve the best results.',
             achievement: "",
             detail: {
                 banner: "",
@@ -85,12 +104,14 @@ var COMPANY_INFO_EN = {
         },
         {
             id: 'Account Management',
-            imgName: 'description3.jpg',
+            imgName: 'description3_en.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: 'Account Management',
+            h: '',
+            //h: 'Account Management',
             pIndex: '',
-            pProduct: "Provide you with fast and safe Google localization account service. Our professional supporting team systematically solve you with any account opening related issues.",
+            pProduct: "", 
+            //pProduct: "Provide you with fast and safe Google localization account service. Our professional supporting team systematically solve you with any account opening related issues.",
             achievement: [""],
             detail: {
                 banner: "",
@@ -119,12 +140,14 @@ var COMPANY_INFO_EN = {
         },
         {
             id: 'Global Marketing Growth',
-            imgName: 'description4.jpg',
+            imgName: 'description4_en.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: 'Global Marketing Growth',
+            h: '',
+            //Global Marketing Growth
             pIndex: '',
-            pProduct: "Super Egg provides powerful performance marketing solution that help growth and set up your business success globally.",
+            pProduct: "",
+            //Super Egg provides powerful performance marketing solution that help growth and set up your business success globally.
             achievement: [""],
             detail: {
                 banner: "",
@@ -249,11 +272,18 @@ var COMPANY_INFO_EN = {
 
 // 首页Title 信息
 // 轮播图内容
+// var BANNER_CONTENT_CN = [
+//     "<div class=\"banner banner-1_zh\">\n      <div class=\"section-wrap\">\n        <h1>专注海外营销<br><span>让广告投放得更加精准</span></h1>\n      </div>\n    </div>",
+//     "<div class=\"banner banner-2_zh\">\n      <div class=\"section-wrap\">\n        <h1>专业的投放技术和创意方案<br><span>为广告主扩大全球品牌影响和用户获取</span></h1>\n              </div>\n    </div>",
+//     "<div class=\"banner banner-3_zh\">\n      <div class=\"section-wrap\">\n        <h1>顶级优质流量<br><span>为产品获得更广阔的市场</span></h1>\n          </div>\n  </div>",
+//     "<div class=\"banner banner-4_zh\">\n      <div class=\"section-wrap\">\n        <h1>定制化投放策略<br><span>定制化创意广告设计</span></h1>\n         </div>\n  </div>"
+// ];
+
 var BANNER_CONTENT_CN = [
-    "<div class=\"banner banner-1\">\n      <div class=\"section-wrap\">\n        <h1>专注海外营销<br><span>让广告投放得更加精准</span></h1>\n      </div>\n    </div>",
-    "<div class=\"banner banner-2\">\n      <div class=\"section-wrap\">\n        <h1>专业的投放技术和创意方案<br><span>为广告主扩大全球品牌影响和用户获取</span></h1>\n              </div>\n    </div>",
-    "<div class=\"banner banner-3\">\n      <div class=\"section-wrap\">\n        <h1>顶级优质流量<br><span>为产品获得更广阔的市场</span></h1>\n          </div>\n  </div>",
-    "<div class=\"banner banner-4\">\n      <div class=\"section-wrap\">\n        <h1>定制化投放策略<br><span>定制化创意广告设计</span></h1>\n         </div>\n  </div>"
+    "<div class=\"banner banner-1_zh\">\n      <div class=\"section-wrap\">\n        <h1></span></h1>\n      </div>\n    </div>",
+    "<div class=\"banner banner-2_zh\">\n      <div class=\"section-wrap\">\n        <h1></span></h1>\n              </div>\n    </div>",
+    "<div class=\"banner banner-3_zh\">\n      <div class=\"section-wrap\">\n        <h1></span></h1>\n          </div>\n  </div>",
+    "<div class=\"banner banner-4_zh\">\n      <div class=\"section-wrap\">\n        <h1></span></h1>\n         </div>\n  </div>"
 ];
 
 var ABOUT_US_INFO_EN = {
@@ -280,12 +310,14 @@ var COMPANY_INFO_CN = {
     products: [
         {
             id: '广告投放',
-            imgName: 'description1.jpg',
+            imgName: 'description1_zh.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: '广告投放',
+            h: '',
+            // h: '广告投放',
             pIndex: '',
-            pProduct: "帮助客户在指定媒体平台获取目标用户, 为您架设合理的投放逻辑、展现方式、渠道、出价策略以及再营销的品牌定位，确保服务期间的有效信息触达受众。",
+            pProduct: "",
+            // pProduct: "帮助客户在指定媒体平台获取目标用户, 为您架设合理的投放逻辑、展现方式、渠道、出价策略以及再营销的品牌定位，确保服务期间的有效信息触达受众。",
             achievement: [""],
             detail: {
                 banner: "",
@@ -311,12 +343,15 @@ var COMPANY_INFO_CN = {
         },
         {
             id: '创意设计',
-            imgName: 'description2.jpg',
+            imgName: 'description2_zh.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: '创意设计',
+            h: '',
             pIndex: '',
-            pProduct: '为产品提供不同媒体环境、用户特征和地域文化的创意设计及视频, 专业设计师精心打造, 让您不用再为图片的文字设计绞尽脑汁。',
+            pProduct: "",
+            // h: '创意设计',
+            // pIndex: '',
+            // pProduct: '为产品提供不同媒体环境、用户特征和地域文化的创意设计及视频, 专业设计师精心打造, 让您不用再为图片的文字设计绞尽脑汁。',
             achievement: "",
             detail: {
                 banner: "",
@@ -348,12 +383,15 @@ var COMPANY_INFO_CN = {
         },
         {
             id: '账户管理',
-            imgName: 'description3.jpg',
+            imgName: 'description3_zh.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: '账户管理',
+            h: '',
             pIndex: '',
-            pProduct: "为客户提供顶级流量平台Google本地化快速开户支持, 不再为开户而烦恼，系统化解决您的开户问题",
+            pProduct: "",
+            // h: '账户管理',
+            // pIndex: '',
+            // pProduct: "为客户提供顶级流量平台Google本地化快速开户支持, 不再为开户而烦恼，系统化解决您的开户问题",
             achievement: [""],
             detail: {
                 banner: "",
@@ -382,12 +420,15 @@ var COMPANY_INFO_CN = {
         },
         {
             id: '专注海外营销',
-            imgName: 'description4.jpg',
+            imgName: 'description4_zh.jpg',
             iconName: '',
             href: 'javascript:void(0)',
-            h: '专注海外营销',
+            h: '',
             pIndex: '',
-            pProduct: "精准营销、整合全球优质媒体资源, 让广告投放得更加精准",
+            pProduct: "",
+            // h: '专注海外营销',
+            // pIndex: '',
+            // pProduct: "精准营销、整合全球优质媒体资源, 让广告投放得更加精准",
             achievement: [""],
             detail: {
                 banner: "",
