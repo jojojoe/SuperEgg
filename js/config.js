@@ -8,11 +8,11 @@ var BANNER_CONTENT_EN = [
 ];
 
 var JOIN_US_INFO_EN = [
-    "<div class=\"join-section_en\"  style=\"margin-top: 60px; height: 340px;\">\n      <div class=\"section-wrap\"  id=\"index-section-wrap\" >\n  <br/ \n  <br/ \n  <br/ \n <h1 id=\"contactus_title\"></h1> \n   <br/ \n <br/ \n <br/ \n  <br/ \n <br/ \n <p class=\"sub-title\"></p> \n  <br/ \n <br/ \n <br/ \n <br/ \n   <h1 id=\"joinUs\"> </h1> \n  <br/ \n  <br/ \n  </div>\n    </div>", 
+    "<div class=\"join-section_en\"  style=\"margin-top: 40px; height: 400px;\">\n      <div class=\"section-wrap\"  id=\"index-section-wrap\" >\n  <br/ \n  <br/ \n  <br/ \n <h1 id=\"contactus_title\"></h1> \n   <br/ \n <br/ \n <br/ \n  <br/ \n <br/ \n <p class=\"sub-title\"></p> \n  <br/ \n <br/ \n <br/ \n <br/ \n   <h1 id=\"joinUs\"> </h1> \n  <br/ \n  <br/ \n  </div>\n    </div>", 
 ]
 
 var JOIN_US_INFO_ZH = [
-    "<div class=\"join-section_zh\"  style=\"margin-top: 60px; height: 340px;\">\n      <div class=\"section-wrap\"  id=\"index-section-wrap\" >\n  <br/ \n  <br/ \n  <br/ \n <h1 id=\"contactus_title\"></h1> \n   <br/ \n <br/ \n <br/ \n  <br/ \n <br/ \n <p class=\"sub-title\"></p> \n  <br/ \n <br/ \n <br/ \n <br/ \n   <h1 id=\"joinUs\"> </h1> \n  <br/ \n  <br/ \n  </div>\n    </div>", 
+    "<div class=\"join-section_zh\"  style=\"margin-top: 40px; height: 400px;\">\n      <div class=\"section-wrap\"  id=\"index-section-wrap\" >\n  <br/ \n  <br/ \n  <br/ \n <h1 id=\"contactus_title\"></h1> \n   <br/ \n <br/ \n <br/ \n  <br/ \n <br/ \n <p class=\"sub-title\"></p> \n  <br/ \n <br/ \n <br/ \n <br/ \n   <h1 id=\"joinUs\"> </h1> \n  <br/ \n  <br/ \n  </div>\n    </div>", 
 ]
 
 // var BANNER_CONTENT_EN = [
